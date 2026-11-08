@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Strip comments from Lua files in place, keeping ``---`` documentation comments.
 Comments are located with tree-sitter's Lua grammar so ``--`` inside strings survives.
 The ``luaparse`` backend can be selected with ``--backend`` when that package is installed; ``--dry-run``/``--diff`` preview and ``--backup`` keeps ``.bak`` copies.

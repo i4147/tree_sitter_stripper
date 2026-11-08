@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Remove the non-essential comments and blank lines from C/C++ sources.
 Strips the comments (keeping the ones that look essential) and collapses the blank lines of the ``.c``/``.h``/``.cc``/``.cpp``/``.hpp`` files with tree-sitter, in parallel over the given tree.
 Usage: clean-cpp [paths ...] Positional arguments: paths ...

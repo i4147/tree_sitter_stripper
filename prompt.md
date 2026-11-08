@@ -7,6 +7,8 @@
 - add pytest based tests and examole usage demos
 - save all produced codes in `result` folder
   save the helper scripts (bash, python, ...) thst you used during this session under arena folder in root of connected repo
+- target env is termux and python version is 3.14.10
+
 - final output style:
 example output:
 [1/23]  fname   34

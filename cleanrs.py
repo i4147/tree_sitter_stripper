@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Strip comments from Rust sources in place with tree-sitter.
 Walks ``.rs`` files (in parallel when a worker pool is available), removes comment nodes while keeping the code intact, and reports the space saved.
 tree-sitter is required for the comment-aware pass.

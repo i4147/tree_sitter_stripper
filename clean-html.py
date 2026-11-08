@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Minify HTML files in place using tree-sitter or htmlmin.
 With the default tree-sitter backend comments and inter-tag whitespace are removed; ``--backend htmlmin`` uses the htmlmin package (whitespace collapsing and attribute trimming) instead.
 ``--dry-run``/``--diff`` preview, ``--backup`` keeps a ``.bak`` copy.

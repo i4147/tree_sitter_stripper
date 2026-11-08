@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Minify TypeScript files in place using tree-sitter, rjsmin or jsmin.
 The tree-sitter TypeScript grammar strips comments and blank lines without extra dependencies; ``--backend rjsmin`` or ``--backend jsmin`` minify more aggressively when installed.
 ``--dry-run``/``--diff`` preview and ``--backup`` keeps ``.bak`` copies.

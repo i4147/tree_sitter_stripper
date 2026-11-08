@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Remove the comments from Lua files, keeping the ``---`` annotations.
 Collects the comment ranges with tree-sitter Lua, preserves the three-dash documentation comments, rewrites the files and works through the tree in a pool.
 Usage: cleanlua [paths ...] Positional arguments: paths ...

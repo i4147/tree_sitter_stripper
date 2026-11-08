@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Remove comments from Vim script files in place.
 Uses the tree-sitter Vim grammar to find comment nodes, so quoted strings are preserved, and processes the files in a worker pool with a summary of the bytes removed.
 Usage: cleanvim [paths ...] Examples: $ cleanvim ~/.vim Runs as a script (``python cleanvim.py``) in the directory it should act on; the module can also be imported."""

@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Strip the comments (and blank lines) from bash scripts in place.
 Finds comment tokens with tree-sitter's bash grammar, so ``#`` inside strings and here-documents is left alone, then rewrites the file without comment-only lines.
 ``--dry-run`` and ``--diff`` preview, ``--backup`` keeps a ``.bak`` copy.

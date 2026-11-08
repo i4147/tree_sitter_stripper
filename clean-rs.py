@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Strip the comments from Rust files while keeping the doc and ``SAFETY:`` comments.
 Parses each ``.rs`` file with tree-sitter, removes the line and block comments except the ``///``/``//!`` documentation and the ``SAFETY:`` notes, collapses the resulting blank-line runs, validates the output and offers ``-diff`` for a coloured preview.
 Usage: clean-rs [paths ...] [-diff] Positional arguments: paths ...

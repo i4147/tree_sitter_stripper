@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 import argparse
 from dataclasses import dataclass
 import multiprocessing as mp

@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Remove comments from JavaScript and TypeScript files in place.
 Picks the JavaScript, TypeScript or TSX grammar from tree-sitter by extension (``.js``, ``.jsx``, ``.ts``, ``.tsx``), deletes comment nodes and leaves string and template literals untouched.
 Files are handled in parallel.

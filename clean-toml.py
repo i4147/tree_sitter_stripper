@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Strip comments from TOML files in place using tree-sitter.
 Removes ``#`` comments and trailing blank lines while leaving strings untouched, then rewrites the file.
 ``--dry-run``/``--diff`` show the result first and ``--backup`` writes ``.bak`` copies.

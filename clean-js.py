@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/env python
 """Minify JavaScript files in place using tree-sitter, rjsmin or jsmin.
 The tree-sitter backend removes comments and blank lines without third-party packages; ``--backend rjsmin`` or ``jsmin`` uses those minifiers when installed.
 ``--dry-run``/``--diff`` preview the output and ``--backup`` keeps a ``.bak`` copy.
