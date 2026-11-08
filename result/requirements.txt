@@ -1,0 +1,16 @@
+# Runtime dependencies for result/tree_sitter_strip.py
+rich>=13.7
+tree-sitter>=0.23
+tree-sitter-bash
+tree-sitter-c
+tree-sitter-cpp
+tree-sitter-css
+tree-sitter-html
+tree-sitter-javascript
+tree-sitter-lua
+tree-sitter-rust
+tree-sitter-toml
+tree-sitter-typescript
+tree-sitter-zsh
+# tree-sitter-vim is optional: no compatible PyPI distribution is published.
+# Install your platform's tree_sitter_vim binding separately if available.
